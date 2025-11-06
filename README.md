@@ -14,25 +14,18 @@ Convert Visual Studio Code themes into Xed-Editor compatible themes. This tool d
 
 ## Screenshots
 
-<div align="center">
-    <figure style="display: inline-block; width: 30%; margin: 0 1%;">
-        <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">
-            <img src="./assets/GitHub%20Theme.jpg" alt="GitHub Theme">
-        </a>
-        <figcaption>GitHub Theme</figcaption>
-    </figure>
-    <figure style="display: inline-block; width: 30%; margin: 0 1%;">
-        <a href="https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode">
-            <img src="./assets/Monokai%20Pro.jpg" alt="Monokai Pro">
-        </a>
-        <figcaption>Monokai Pro</figcaption>
-    </figure>
-    <figure style="display: inline-block; width: 30%; margin: 0 1%;">
-        <a href="https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme">
-            <img src="./assets/One%20Dark%20Pro.jpg" alt="One Dark Pro">
-        </a>
-        <figcaption>One Dark Pro</figcaption>
-    </figure>
+Demonstration images of the themes _GitHub Theme_, _Monokai Pro_ and _One Dark Pro_
+
+<div>
+    <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">
+        <img src="./assets/GitHub%20Theme.jpg" width="30%" alt="GitHub Theme">
+    </a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode">
+        <img src="./assets/Monokai%20Pro.jpg" width="30%" alt="Monokai Pro">
+    </a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme">
+        <img src="./assets/One%20Dark%20Pro.jpg" width="30%" alt="One Dark Pro">
+    </a>
 </div>
 
 ## Requirements
@@ -76,7 +69,7 @@ Contributions are welcome! Feel free to improve the project's color conversion a
 ## License
 
 This project is licensed under the MIT License.
-See the [LICENSE](LICENSE.md) file for more details.
+See the [LICENSE](LICENSE) file for more details.
 
 Not affiliated with Microsoft or Visual Studio Code in any way.
 Screenshots and converted themes are shown for demonstration purposes only.
