@@ -1,0 +1,28 @@
+{
+    "name": "vscode2xed",
+    "version": "1.0.0",
+    "description": "Convert VS Code themes into Xed-Editor compatible themes.",
+    "keywords": [
+        "vscode",
+        "xed-editor",
+        "theme",
+        "converter"
+    ],
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node ./src/index.js",
+        "exp": "node ./src/test.js"
+    },
+    "author": "KonerDev",
+    "dependencies": {
+        "@material/material-color-utilities": "^0.3.0",
+        "json5": "^2.2.3",
+        "unzipper": "^0.12.3"
+    },
+    "devDependencies": {
+        "@eslint/js": "^9.39.0",
+        "eslint": "^9.39.0",
+        "globals": "^16.5.0"
+    }
+}
