@@ -14,17 +14,17 @@ Convert Visual Studio Code themes into Xed-Editor compatible themes. This tool d
 
 ## Screenshots
 
-Demonstration images of the themes _GitHub Theme_, _Monokai Pro_ and _One Dark Pro_
+Demonstration images of the themes _GitHub Theme_, _One Dark Pro_ and _Monokai Pro_
 
 <div>
     <a href="https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme">
         <img src="./assets/GitHub%20Theme.jpg" width="30%" alt="GitHub Theme">
     </a>
-    <a href="https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode">
-        <img src="./assets/Monokai%20Pro.jpg" width="30%" alt="Monokai Pro">
-    </a>
     <a href="https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme">
         <img src="./assets/One%20Dark%20Pro.jpg" width="30%" alt="One Dark Pro">
+    </a>
+    <a href="https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode">
+        <img src="./assets/Monokai%20Pro.jpg" width="30%" alt="Monokai Pro">
     </a>
 </div>
 
