@@ -11,8 +11,7 @@
     "main": "index.js",
     "type": "module",
     "scripts": {
-        "start": "node ./src/index.js",
-        "exp": "node ./src/test.js"
+        "start": "node ./src/index.js"
     },
     "author": "KonerDev",
     "dependencies": {
