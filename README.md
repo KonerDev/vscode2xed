@@ -3,11 +3,11 @@
     <h1>vscode2xed</h1>
 </div>
 
-Convert Visual Studio Code themes into Xed-Editor compatible themes. This tool downloads a VS Code theme from the marketplace, extracts its color palette and token colors, and converts it into a format that Xed-Editor can understand.
+Convert Visual Studio Code themes into [Xed-Editor](https://github.com/Xed-Editor/Xed-Editor) compatible themes. This tool downloads a VS Code theme from the marketplace, extracts its color palette and token colors, and converts it into a format that Xed-Editor can understand.
 
 ## Features
 
--   Download VS Code theme `.vsix` packages directly from the marketplace.
+-   Download VS Code theme `.vsix` packages directly from the [marketplace](https://marketplace.visualstudio.com/search?target=VSCode&category=Themes&sortBy=Installs).
 -   Extract light and dark theme variants from the extension.
 -   Convert full theme palettes, terminal colors, and editor token colors.
 -   Automatically export converted themes to an installable JSON theme.
