@@ -14,6 +14,6 @@ export async function exportTheme(packageName, convertedTheme) {
     console.log('You can find the converted theme at ' + styleText(['blue'], themePath));
 }
 
-async function cleanup() {
+export async function cleanup() {
     await fs.unlink(config.VSIX_NAME);
 }

@@ -2,10 +2,22 @@ import readline from 'node:readline';
 import fs from 'node:fs/promises';
 import { styleText } from 'node:util';
 import { printErrorLine } from '../utils/utils.js';
+import { cleanup } from '../core/export.js';
 
 const rl = readline.createInterface({
     input: process.stdin,
     output: process.stdout,
+});
+
+if (process.platform === 'win32') {
+    rl.on('SIGINT', function () {
+        process.emit('SIGINT');
+    });
+}
+
+process.on('SIGINT', function () {
+    cleanup();
+    process.exit(0);
 });
 
 export async function askThemeUrl() {
