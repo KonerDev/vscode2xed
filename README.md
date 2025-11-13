@@ -30,6 +30,7 @@ Demonstration images of the themes _GitHub Theme_, _One Dark Pro_ and _Monokai P
 
 ## Requirements
 
+-   Git
 -   Node.js 21.7.0+
 
 ## Installation
@@ -61,6 +62,28 @@ Steps:
 2. Select the light and dark theme variants that you want to combine.
 3. Wait for the converter to download, extract, and convert the theme.
 4. Find the converted theme in the `./out` folder.
+
+## Update
+
+To update `vscode2xed` to the latest version:
+
+1. Pull the latest changes from the GitHub repository:
+
+```bash
+git pull origin main
+```
+
+2. Update dependencies to ensure compatibility with the latest Node.js:
+
+```bash
+npm install
+```
+
+3. If you previously built themes, you may want to clear the output folder before generating new ones:
+
+```bash
+rm -rf ./out
+```
 
 ## Contributing
 
