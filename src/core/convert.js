@@ -8,7 +8,7 @@ export function convertThemes(packageJson, themeLight, themeDark) {
     return {
         id: packageJson.name,
         name: packageJson.displayName,
-        targetVersion: config.TARGET_VERSION,
+        minAppVersion: config.MIN_VERSION,
         inheritBase: config.INHERIT_BASE,
         light: convertThemePalette(themeLight, false),
         dark: convertThemePalette(themeDark, true, false), // Disable warnings for second conversion to prevent duplicates
@@ -32,7 +32,7 @@ export function convertThemePalette(theme, isDark, showWarnings = true) {
     const primaryColor = colorUtils.getMostSaturated(
         getColor('button.background'),
         getColor('tab.activeBorder'),
-        getColor('tab.activeBorderTop')
+        getColor('tab.activeBorderTop'),
     );
     const surfaceColor = getColor('panel.background', getColor('activityBar.background'));
     const generatedColors = colorUtils.generateSchemeColors(primaryColor, surfaceColor, isDark);
